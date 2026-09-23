@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Hero } from "../Components/Hero";
 import { MovieCard } from "../Components/MovieCard";
-import useData from "../hooks/UseData";
+import useData from "./useData.js";
 
 export const Home = ({ search }) => {
   const [popularShows, setPopularShows] = useState([]);
